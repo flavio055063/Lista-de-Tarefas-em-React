@@ -1,5 +1,5 @@
 # Lista de Tarefas em React
- Lista de Tarefas e Afazeres (To Do List) feito em React
+ Lista de Tarefas e Afazeres (To-Do List) feito em React
 
  Para funcionar este código, é necessário ter instalado o Node.js. Para instalar, [Clique aqui](https://nodejs.org/en).
 
