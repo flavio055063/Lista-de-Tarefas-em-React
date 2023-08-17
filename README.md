@@ -3,6 +3,8 @@
 
  Para funcionar este código, é necessário ter instalado o Node.js. Para instalar, [Clique aqui](https://nodejs.org/en).
 
- Use o comando `git clone` para clonar o repositório. Use `npm install` para instalar todas as dependências necessárias.
+No terminal, use o comando `git clone https://github.com/flavio055063/Lista-de-Tarefas-em-React.git` para clonar o repositório.
+Então, use o comando `cd Lista-de-Tarefas-em-React` para acessar a pasta criada.
+Em seguida, `npm install` para instalar todas as dependências necessárias.
 
- Use `npm run dev` para poder rodar o site no localhost.
+Para rodar em localhost, dê `npm run dev`.
