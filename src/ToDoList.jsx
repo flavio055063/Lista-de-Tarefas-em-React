@@ -16,6 +16,15 @@ function ToDoList() {
         }
     }
 
+    function setDone(index){
+        console.log("Index: " + index)
+        const auxList = [...lista]
+        auxList[index].isCompleted = true;
+        console.log("Lista depois de alterada: ")
+        console.log(auxList)
+        setLista(auxList)
+    }
+
     return (
         <>
             <h1>Lista de Tarefas</h1>
@@ -29,7 +38,7 @@ function ToDoList() {
                 <button type="submit">Add</button>
             </form>
             {lista.length > 0 ? (
-                lista.map((item, index) => <Item key={index} item={item} />)
+                lista.map((item, index) => <Item key={index} item={item} setDone={setDone} index={index}/>)
             ) : (
                 <img
                     src="https://www.nicepng.com/png/full/835-8355467_do-list-vector.png"
